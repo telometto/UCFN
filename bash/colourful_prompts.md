@@ -1,6 +1,8 @@
 1.2.1 Open terminal. <br />
-1.2.2 Use your favourite text editor to edit the .bashrc file (e.g. nano): 'nano ~/.bashrc'. <br />
-1.2.3 Enter `tprompt () {
+1.2.2 Use your favourite text editor to edit the .bashrc file (e.g. nano): `nano ~/.bashrc`. <br />
+1.2.3 Enter<br />
+```
+tprompt () {
     local bold=$(tput bold)
     local red=$(tput setaf 1)
     local green=$(tput setaf 2)
@@ -14,6 +16,7 @@
         "$red" '\$' \
         "$plain" ' '
 }
-tprompt` <br />
+tprompt
+``` 
 1.2.4 Enter `source ~/.bashrc` <br />
 1.2.5 Restart terminal.
