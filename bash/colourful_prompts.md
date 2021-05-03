@@ -1,6 +1,6 @@
 1.2.1 Open terminal. <br />
 1.2.2 Use your favourite text editor to edit the .bashrc file (e.g. nano): `nano ~/.bashrc`. <br />
-1.2.3 Enter<br />
+1.2.3 Enter the piece of code under:<br />
 ```
 tprompt () {
     local bold=$(tput bold)
